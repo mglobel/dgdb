@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @drinking_game.name %>
+</p>
+
+<p>
+  <strong>Players:</strong>
+  <%= @drinking_game.players %>
+</p>
+
+<p>
+  <strong>Rules:</strong>
+  <%= @drinking_game.rules %>
+</p>
+
+<%= link_to 'Edit', edit_drinking_game_path(@drinking_game) %> |
+<%= link_to 'Back', drinking_games_path %>
